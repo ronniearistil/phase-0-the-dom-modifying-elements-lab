@@ -1,16 +1,18 @@
 // Remove the <main> element
-const main = document.getElementById("main");
+const main = document.getElementById('main');
 main.remove();
 
 // Create a new <h1> element
-const newHeader = document.createElement("h1");
+const newHeader = document.createElement('h1');
 
-// Assign the id 'victory' to the newHeader element
-newHeader.id = "victory";
+// Set the id of the new <h1> element to 'victory'
+newHeader.id = 'victory';
 
-// Set the text content of the newHeader element
-newHeader.textContent = "Ronnie Aristil is the champion";
+// Set the text of the new <h1> element
+newHeader.textContent = 'YOUR-NAME is the champion'; // Replace YOUR-NAME with your actual name
 
-// Append the newHeader element to the body
-document.body.append(newHeader);
+// Append the new <h1> element to the document body
+document.body.appendChild(newHeader);
+
+  
 
